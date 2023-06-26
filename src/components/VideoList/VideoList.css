@@ -1,0 +1,22 @@
+.video-list__header {
+  font-size: 24px;
+  font-weight: 400;
+  color: #afafaf;
+}
+
+.video-list__listing {
+  padding-left: 1rem;
+}
+
+.video-list__header {
+  padding-left: 1rem;
+}
+
+@media (min-width: 1280px) {
+  .video-list__header {
+    padding-top: 1.5rem;
+  }
+  .video-list {
+    margin-left: 1rem;
+  }
+}/*# sourceMappingURL=VideoList.css.map */

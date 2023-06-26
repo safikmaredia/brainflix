@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+body, h1, h2, h3, p {
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  .main-small-container {
+    padding-left: 36px;
+  }
+}
+@media (min-width: 1280px) {
+  .main-container {
+    display: flex;
+  }
+  .main-small-container {
+    flex-direction: column;
+    padding-left: 7.5rem;
+  }
+  .video-list-container {
+    padding-right: 7.5rem;
+    border-left: solid 1px #e1e1e1;
+  }
+}/*# sourceMappingURL=Main.css.map */
