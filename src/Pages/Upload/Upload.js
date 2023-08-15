@@ -4,6 +4,10 @@ import Icon from '../../Assets/Icons/publish.svg';
 import React, { useState } from 'react';
 import { Navigate } from 'react-router-dom';
 
+
+const url = 'http://localhost:3000/videos/';
+
+
 const Upload = () => {
   const [submit, setSubmit] = useState(false);
 
